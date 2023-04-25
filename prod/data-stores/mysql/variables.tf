@@ -6,13 +6,15 @@
 variable "db_username" {
   description = "The username for the database"
   type        = string
-  sensitive   = true
+  sensitive   = false 
+  default = "hendy"
 }
 
 variable "db_password" {
   description = "The password for the database"
   type        = string
-  sensitive   = true
+  sensitive   = false 
+  default  = "hendy12345678" 
 }
 
 # ---------------------------------------------------------------------------------------------------------------------

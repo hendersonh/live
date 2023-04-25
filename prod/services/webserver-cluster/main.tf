@@ -7,7 +7,7 @@ module "webserver_cluster" {
   organization = var.organization
   workspace     = var.workspace
 
-  instance_type = "db.t2.micro"
+  instance_type = "t1.micro"
   min_size      = 2
   max_size      = 10
 }

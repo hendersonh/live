@@ -1,8 +1,3 @@
-
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_db_instance" "example" {
   identifier_prefix   = "terraform-up-and-running"
   engine              = "mysql"
