@@ -4,7 +4,7 @@ module "webserver_cluster" {
   source = "github.com/hendersonh/modules/services/webserver-cluster"
 
   cluster_name           = var.cluster_name
-  oraganization = var.oraganization
+  oraganization = var.organization
   workspace     = var.workspace
 
   instance_type = "db.t2.micro"
