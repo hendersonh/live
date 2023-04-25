@@ -10,9 +10,9 @@ variable "organization" {
 }
 
 variable "workspace" {
-  description = "Work space in cloud"
+  description = "Work space in cloud for DB"
   type        = string
-  default     = "live"
+  default     = "db001"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -24,4 +24,10 @@ variable "cluster_name" {
   description = "The name to use to namespace all the resources in the cluster"
   type        = string
   default     = "webservers-prod"
+}
+
+variable "db_name" {
+  description = "name of db"
+  type        = string
+  default     = "db001"
 }
